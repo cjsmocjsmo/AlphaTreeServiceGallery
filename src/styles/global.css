@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+}
+
+.zoom-pic-div-placeholder {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.zoom-pic {
+	max-width: 800px;
+}
+
+img {
+	padding:5px;
+	border-radius: 12px;
+	/* width: 258px;*/
+} 
+
+.grid-item2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrows {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
